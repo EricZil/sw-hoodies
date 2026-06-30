@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const target = new Date("2026-07-10").getTime();
+const target = new Date("2026-07-10T00:00:00+03:00").getTime();
 
 function timeLeft() {
   const diff = Math.max(0, target - Date.now());
